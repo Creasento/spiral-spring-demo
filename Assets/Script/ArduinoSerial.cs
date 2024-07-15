@@ -24,6 +24,8 @@ public class ArduinoSerial : MonoBehaviour
         {
             Debug.LogError("Failed to open serial port: " + e.Message);
         }
+
+        SendDataToArduino("h");
     }
 
     void Update()

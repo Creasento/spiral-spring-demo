@@ -9,6 +9,8 @@ public class balloon : MonoBehaviour
     public GameObject Sphere;
     public float scaleFactor = 0.01f;
 
+    public GameObject targetObject;
+
     void Start()
     {
 
@@ -29,4 +31,19 @@ public class balloon : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject == targetObject)
+        {
+            Debug.Log(1);
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject == targetObject)
+        {
+            Debug.Log(0);
+        }
+    }
 }
