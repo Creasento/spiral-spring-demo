@@ -35,6 +35,27 @@ public class ArduinoSerial : MonoBehaviour
         {
             SendDataToArduino("1");
         }
+
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            SendDataToArduino("d");
+        }
+        else if (Input.GetKeyUp(KeyCode.B))
+        {
+            SendDataToArduino("s");
+        }
+        else if (Input.GetKeyDown(KeyCode.N))
+        {
+            SendDataToArduino("f");
+        }
+        else if (Input.GetKeyUp(KeyCode.N))
+        {
+            SendDataToArduino("s");
+        }
+        else if (Input.GetKeyUp(KeyCode.R))
+        {
+            SendDataToArduino("r");
+        }
     }
 
     public void SendDataToArduino(string data)

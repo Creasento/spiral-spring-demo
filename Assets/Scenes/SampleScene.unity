@@ -315,8 +315,7 @@ MonoBehaviour:
     _unselectMode: 0
   _movementProvider: {fileID: 0}
   _handAligment: 1
-  _handGrabPoses:
-  - {fileID: 2083229695}
+  _handGrabPoses: []
 --- !u!114 &932688706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540,6 +539,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1097471875}
+        m_TargetAssemblyTypeName: ArduinoSerial, Assembly-CSharp
+        m_MethodName: SendDataToArduino
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 0
+          m_BoolArgument: 0
+        m_CallState: 2
   _whenInteractorViewAdded:
     m_PersistentCalls:
       m_Calls: []
@@ -653,6 +664,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1097471875}
+        m_TargetAssemblyTypeName: ArduinoSerial, Assembly-CSharp
+        m_MethodName: SendDataToArduino
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 0
+          m_BoolArgument: 0
+        m_CallState: 2
   _whenInteractorViewAdded:
     m_PersistentCalls:
       m_Calls: []
@@ -731,31 +754,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fc02cd2659f649448ca16715fdb7d8b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.02585422
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fc02cd2659f649448ca16715fdb7d8b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.80134296
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fc02cd2659f649448ca16715fdb7d8b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.49894482
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fc02cd2659f649448ca16715fdb7d8b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7068251
+      value: 0.70710677
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fc02cd2659f649448ca16715fdb7d8b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.7068251
+      value: 0.70710677
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fc02cd2659f649448ca16715fdb7d8b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.019959392
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fc02cd2659f649448ca16715fdb7d8b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.019959392
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fc02cd2659f649448ca16715fdb7d8b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -763,11 +786,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fc02cd2659f649448ca16715fdb7d8b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90.82599
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fc02cd2659f649448ca16715fdb7d8b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -87.591
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7fc02cd2659f649448ca16715fdb7d8b, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -838,7 +861,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: -4287862228728641661, guid: 3204f7704e753084991151c540c96ce1, type: 3}
+  m_Mesh: {fileID: -4287862228728641661, guid: 9de2496bd112951428dff47620ca2e9f, type: 3}
 --- !u!114 &1251229732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1055,19 +1078,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3204f7704e753084991151c540c96ce1, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.03
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3204f7704e753084991151c540c96ce1, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.03
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3204f7704e753084991151c540c96ce1, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.03
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3204f7704e753084991151c540c96ce1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.078
+      value: 0.993
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3204f7704e753084991151c540c96ce1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1075,7 +1098,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3204f7704e753084991151c540c96ce1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.159
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3204f7704e753084991151c540c96ce1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1627,6 +1650,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1097471875}
+        m_TargetAssemblyTypeName: ArduinoSerial, Assembly-CSharp
+        m_MethodName: SendDataToArduino
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 0
+          m_BoolArgument: 0
+        m_CallState: 2
   _whenInteractorViewAdded:
     m_PersistentCalls:
       m_Calls: []
@@ -1698,6 +1733,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1097471875}
+        m_TargetAssemblyTypeName: ArduinoSerial, Assembly-CSharp
+        m_MethodName: SendDataToArduino
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 0
           m_BoolArgument: 0
         m_CallState: 2
   _whenInteractorViewAdded:
@@ -2245,8 +2292,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0.597}
-  m_LocalScale: {x: 0.23102, y: 0.23102, z: 0.23102}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2723,6 +2770,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1097471875}
+        m_TargetAssemblyTypeName: ArduinoSerial, Assembly-CSharp
+        m_MethodName: SendDataToArduino
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 0
+          m_BoolArgument: 0
+        m_CallState: 2
   _whenInteractorViewAdded:
     m_PersistentCalls:
       m_Calls: []
@@ -2794,6 +2853,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1097471875}
+        m_TargetAssemblyTypeName: ArduinoSerial, Assembly-CSharp
+        m_MethodName: SendDataToArduino
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 0
           m_BoolArgument: 0
         m_CallState: 2
   _whenInteractorViewAdded:
