@@ -1,0 +1,62 @@
+{
+    "name": "Agrab",
+    "maps": [
+        {
+            "name": "AButton",
+            "id": "57592306-df78-43c6-9067-895a414d45f8",
+            "actions": [
+                {
+                    "name": "AButton",
+                    "type": "Button",
+                    "id": "746308c9-aab5-431e-a05a-73736a0c9a0a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1cd3e116-5b09-4628-953e-8026d2092f65",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "SButton",
+            "id": "2b158f2e-465e-44af-b639-2c5565dee217",
+            "actions": [
+                {
+                    "name": "SButton",
+                    "type": "Button",
+                    "id": "e76c7486-cf41-4d6e-bb86-1ffb9dc05069",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "22e28bba-d257-48a5-9a70-ba5e7c58ae8e",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

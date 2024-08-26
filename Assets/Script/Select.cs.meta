@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ef81eed75b705ea4bace8de99d5d1227
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - aButtonAction: {fileID: -1644268686446141890, guid: e0c646fc58ec11f4ab3adfa8d9ff9e2d, type: 3}
+  - bButtonAction: {fileID: -7292693326502510294, guid: e0c646fc58ec11f4ab3adfa8d9ff9e2d, type: 3}
+  - objectToGrab: {instanceID: 0}
+  - leftHandCollider: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

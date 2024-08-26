@@ -10,7 +10,7 @@ public class ArduinoSerial : MonoBehaviour
     void Start()
     {
         // 시리얼 포트 설정 (포트 이름과 통신 속도)
-        serialPort = new SerialPort("COM7", 9600); // Windows에서는 COM 포트 이름 사용
+        serialPort = new SerialPort("COM13", 9600); // Windows에서는 COM 포트 이름 사용
         // serialPort = new SerialPort("/dev/ttyUSB0", 9600); // macOS/Linux에서는 /dev/tty* 사용
 
         // 시리얼 포트 열기
@@ -31,7 +31,7 @@ public class ArduinoSerial : MonoBehaviour
     void Update()
     {
         // 'A' 키가 눌렸을 때 아두이노로 '1' 전송
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             SendDataToArduino("1");
         }
